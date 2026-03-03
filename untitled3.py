@@ -47,7 +47,6 @@ data = {
 with open('saved_steps.pkl', 'wb') as file:
     pickle.dump(data, file)
 
-!pip install streamlit
 import streamlit as st
 import pickle
 import numpy as np

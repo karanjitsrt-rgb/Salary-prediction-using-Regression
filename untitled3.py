@@ -86,6 +86,6 @@ X_input = np.array([rating, loc_encoded[0], role_encoded[0]]).reshape(1, -1)
 # The prediction logic will now run when the cell is executed.
 
 # Predict
-    salary_pred = regressor.predict(X_input)
+salary_pred = regressor.predict(X_input)
 
-    st.subheader(f"The estimated salary is: ₹ {salary_pred[0]:,.2f}")
+st.subheader(f"The estimated salary is: ₹ {salary_pred[0]:,.2f}")
